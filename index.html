@@ -11,23 +11,50 @@
         <h1 id="pirma-antraste">Pirma antraste</h1>
         <p id="pirmas-paragrafas">Pirmas paragrafas</p>
     </div>
+
     <div id="antras">
         <p id="paragrafo-tekstas">
             Lorem ipsum dolor sit amet.
         </p>
     </div>
+
     <div id="trecias">
         <p>
             Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
         </p>
     </div>
-            <div id="ketvirtas">
-                <button onclick="document.getElementById('paragrafas-pakeitimui').innerHTML ='pakeistas paragrafo tekstas' ">
-                    pakeisti teksta
-                </button>
-                <p id="paragrafas-pakeitimui">Nepakeistas paragrafo tekstas</p>
 
-            </div>
+     <div id="ketvirtas">
+        <button onclick="document.getElementById('paragrafas-pakeitimui').innerHTML ='pakeistas paragrafo tekstas' ">
+        pakeisti teksta
+         </button>
+         <p id="paragrafas-pakeitimui">Nepakeistas paragrafo tekstas</p>
+
+    </div>
+    <div id="penktas">
+        <button onclick="document.getElementById('paragrafas-5').style.fontSize ='35px' ">
+            pakeisti dydi
+        </button>
+        <button onclick="document.getElementById('paragrafas-5').style.color = 'red' ">
+            pakeisti spalva
+        </button>
+        <p id="paragrafas-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, similique.
+        </p>
+    </div>
+
+    <div id="sestas">
+        <p>
+            <img src="light-off.png" alt="lempute" id="lempute">
+        </p>
+        <button onclick="document.getElementById('lempute').src ='light-on.png'">
+            Ijungti lempute
+        </button>
+        <button onclick="document.getElementById('lempute').src = 'light-off.png' ">
+            Isjungti lempute
+        </button>
+
+    </div>
 
     <script src="index.js"></script>
 </body>
